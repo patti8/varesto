@@ -1,5 +1,5 @@
 import FavoriteRestoIdb from '../../data/favoriteresto-idb';
-import { createRestoItemTemplate } from '../templates/template-creator';
+import {createRestoItemTemplate} from '../templates/template-creator';
 
 const Like = {
   async render() {

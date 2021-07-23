@@ -1,9 +1,10 @@
-/* eslint-disable no-underscore-dangle */
+/* eslint-disable max-len */
+
 import FavoriteRestoIdb from '../data/favoriteresto-idb';
-import { createLikeButtonTemplate, createLikedButtonTemplate } from '../views/templates/template-creator';
+import {createLikeButtonTemplate, createLikedButtonTemplate} from '../views/templates/template-creator';
 
 const LikeButtonInitiator = {
-  async init({ likeButtonContainer, movie }) {
+  async init({likeButtonContainer, movie}) {
     this._likeButtonContainer = likeButtonContainer;
     this._movie = movie;
 
@@ -11,7 +12,7 @@ const LikeButtonInitiator = {
   },
 
   async _renderButton() {
-    const { id } = this._movie;
+    const {id} = this._movie;
 
     if (await this._isMovieExist(id)) {
       this._renderLiked();

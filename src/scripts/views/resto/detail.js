@@ -1,7 +1,8 @@
+/* eslint-disable max-len */
 import RestaurantDbSource from '../../data/restaurantdb-source';
 import UrlParser from '../../routes/url-parser';
 // eslint-disable-next-line no-unused-vars
-import { createRestoDetailTemplate, createLikeButtonTemplate } from '../templates/template-creator';
+import {createRestoDetailTemplate, createLikeButtonTemplate} from '../templates/template-creator';
 import LikeButtonInitiator from '../../utils/like-button-initiator';
 
 const Detail = {

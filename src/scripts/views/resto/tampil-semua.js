@@ -1,5 +1,5 @@
 import RestaurantDbSource from '../../data/restaurantdb-source';
-import { createRestoItemTemplate } from '../templates/template-creator';
+import {createRestoItemTemplate} from '../templates/template-creator';
 import '../components/ini-hero';
 
 const TampilSemua = {

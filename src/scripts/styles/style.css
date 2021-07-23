@@ -325,3 +325,7 @@ a {
 .makan .movie-item {
   width: 75%;
 }
+
+img.movie__poster {
+  width: 100% !important;
+}

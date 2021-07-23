@@ -1,4 +1,4 @@
-/* eslint-disable no-underscore-dangle */
+/* eslint-disable require-jsdoc */
 class IniHero extends HTMLElement {
   connectedCallback() {
     this._render();

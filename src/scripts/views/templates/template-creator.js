@@ -1,9 +1,10 @@
+/* eslint-disable max-len */
 import CONFIG from '../../globals/config';
 
 const createRestoDetailTemplate = (varesto) => `
   <h2 class="movie__title">${varesto.name}</h2>
   <img 
-    src="${CONFIG.BASE_URL_IMAGE_SM + varesto.pictureId}"  
+    src="${CONFIG.BASE_URL_IMAGE_MD + varesto.pictureId}"  
     alt="${varesto.name}" 
     class="movie__poster"
   />
@@ -40,7 +41,9 @@ const createRestoDetailTemplate = (varesto) => `
   <br>
   <h3>Komentar Mereka: </h3>
   ${varesto.customerReviews.map((cr) => `
-    <li><small><i>[ ${cr.date} ]</i> </small><strong>${cr.name} : </strong> ${cr.review}</li>
+    <ul>
+      <li><small><i>[ ${cr.date} ]</i></small><strong>${cr.name} : </strong> ${cr.review}</li>
+    </ul>
   `).join('')}
 `;
 

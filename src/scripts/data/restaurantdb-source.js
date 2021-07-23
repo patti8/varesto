@@ -1,3 +1,5 @@
+/* eslint-disable new-cap */
+/* eslint-disable require-jsdoc */
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import API_ENDPOINT from '../globals/api-endpoint';

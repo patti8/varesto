@@ -1,3 +1,5 @@
+/* eslint-disable new-cap */
+/* eslint-disable require-jsdoc */
 import API_ENDPOINT from '../globals/api-endpoint';
 
 class TheMovieDbSource {

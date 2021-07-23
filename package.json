@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-dev": "webpack-dev-server --config webpack.dev.js --port 3000",
+    "start-dev": "webpack-dev-server --config webpack.dev.js --port 4000",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ./src"
   },
@@ -17,8 +17,8 @@
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.0.2",
     "css-loader": "^3.6.0",
-    "eslint": "^7.30.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint": "^7.31.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-plugin-import": "^2.23.4",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.3.0",
