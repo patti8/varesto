@@ -18,7 +18,7 @@ body {
   width: 100%;
   min-height: 380px;
   background: #000000;
-  background-image: url("../../public/heros/hero-image_1.jpg");
+  background-image: url("../../public/heros/hero-image-lg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
