@@ -1,4 +1,5 @@
 {
+  "home": "https://patti8.github.io/varesto/",
   "name": "movie-catalogue",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +10,8 @@
     "lint": "eslint ./src",
     "test": "karma start",
     "e2e": "codeceptjs run --steps",
-    "build-image": "node sharp.js"
+    "build-image": "node sharp.js",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Tendy Rivaldo",
@@ -25,6 +27,7 @@
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-import": "^2.23.4",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^4.3.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-webpack-plugin": "^2.4.2",
